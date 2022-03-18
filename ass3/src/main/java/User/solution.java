@@ -1,19 +1,21 @@
 package User;
 
-import User.Device;
+//import User.Device;
 
 import java.util.List;
 import java.util.Locale;
 
 public class solution {
-    static Device d1;
+    static Device1 d1;
     private static String keyword;
 
-    public solution(Device device) {
+    public solution(Device1 device) {
         d1 = device;
 
 
     }
+
+
 
     public static String Findsol(String Q) {//takes in Sting
         Q = Q.toLowerCase(Locale.ROOT);//convert to lowercase

@@ -1,7 +1,7 @@
 package User;
 
-import User.Device;
-import User.Survey;
+import User.Device1;
+//import User.Survey;
 import User.solution;
 import org.junit.Assert;
 import org.junit.Test;
@@ -9,7 +9,7 @@ import org.junit.Test;
 public class test {
 
 
-    Device device = new Device();
+    Device1 device = new Device1();
     solution sol = new solution(device);
 
     @Test

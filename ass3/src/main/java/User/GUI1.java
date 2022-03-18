@@ -5,8 +5,8 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import User.Device;
-import nlp.POS;
+//import User.Device;
+//import nlp.POS;
 class GUI1 extends JFrame{
 
     public JTextArea area = new JTextArea(); //Chat Area

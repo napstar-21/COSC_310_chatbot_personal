@@ -1,5 +1,6 @@
 package User;
-import nlp.POS;
+
+import nlp.POS1;
 
 
 public class IO {
@@ -12,12 +13,12 @@ public class IO {
     Boolean exit = false;
     int excount=0;
     Survey survey;
-    POS pos = new POS();
-
+    nlp.POS1 pos = new POS1();
+    Device1 device1;
     public IO(GUI1 gui){
 
         this.gui=gui;
-        Device device1 = new Device();
+        device1 = new Device1();
         solution sol = new solution(device1);
     gui.reply("Hello! I am Team 30's Virtual Product Assistant"+"\n" +
             "in order to exit the program enter exit or done\n"+
