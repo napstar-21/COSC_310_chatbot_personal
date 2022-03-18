@@ -17,8 +17,9 @@ public class tokenisation {
         stanfordCoreNLP.annotate(coreDocument);
 
         List<CoreLabel> coreLabelList = coreDocument.tokens();
-
+        String word;
         for(CoreLabel coreLabel:coreLabelList){
+
             System.out.println(coreLabel.originalText());
 
         }
