@@ -11,16 +11,21 @@ public class tokenisation {
     public static void main(String[] args) {
     StanfordCoreNLP stanfordCoreNLP= pipeline.getPipeline();
 
-    String text = "Hi, this is Logan Gilroy";
+    String text = "blu yelow reed read giont";
 
         CoreDocument coreDocument = new CoreDocument(text);
         stanfordCoreNLP.annotate(coreDocument);
 
         List<CoreLabel> coreLabelList = coreDocument.tokens();
         String word;
-        for(CoreLabel coreLabel:coreLabelList){
 
-            System.out.println(coreLabel.originalText());
+        Stemmer spellCheck = new Stemmer();
+        for(CoreLabel coreLabel:coreLabelList){
+            word = coreLabel.originalText();
+            spellCheck.add(word.toCharArray(), word.toCharArray().length);
+            spellCheck.stem();
+            String u = spellCheck.toString();
+            System.out.println(u);
 
         }
 
