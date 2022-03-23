@@ -32,7 +32,8 @@ public class IO {
     }
 
     void solfind(String txt){
-       String ans= solution.Findsol(txt);
+        txt = pos.lstring(txt);
+        String ans= solution.Findsol(txt);
        if(exit){
            exit();
        }
@@ -44,7 +45,7 @@ public class IO {
         }
         else {
 
-            pos.lstring(txt);
+            //pos.lstring(txt);
             gui.screenout("Chatbot: you should try to " + ans + ".\n Chatbot:What else can I help you with" + "\n");
         }
 
@@ -53,8 +54,6 @@ public class IO {
 
     private void exit() {
         exit = true;
-
-
 
             gui.screenout("ChatBot: "+survey.SurveyQuestions.get(excount)+"\n");
             Lusertext=usertext;
