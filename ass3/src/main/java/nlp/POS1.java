@@ -11,6 +11,7 @@ public class POS1 {
     private static String nouns="";
     private static String adj="";
     private static String verbs="";
+    private static String text;
     public POS1(){
 
     }
@@ -18,7 +19,7 @@ public class POS1 {
     //String text;
     public static String lstring(String txt) {
 
-
+    text=txt;
         StanfordCoreNLP stanfordCoreNLP = pipeline.getPipeline();
 
         //String text = "Hi! My name is Logan. I don't know what I am doing.";
@@ -33,12 +34,13 @@ public class POS1 {
             String pos = corelabel.get(CoreAnnotations.PartOfSpeechAnnotation.class);
             System.out.println( corelabel.originalText()+" = "+pos);
 
-            if(pos.contains("NN"))
-                nouns=nouns.concat(corelabel.originalText()+" ");
-            if (pos.contains("JJ")||pos.contains("IN"))
-                adj=adj.concat(corelabel.originalText()+" ");
-            if(pos.contains("VB"))
-                verbs=verbs.concat(corelabel.originalText()+" ");
+            if(!pos.contains("NN")&&!pos.contains("JJ")&&!pos.contains("IN")&&!pos.contains("VB"))
+                text=text.replace(" "+corelabel.originalText(),"" );
+                //nouns=nouns.concat(corelabel.originalText()+" ");
+            //if (pos.contains("JJ")||pos.contains("IN"))
+                //adj=adj.concat(corelabel.originalText()+" ");
+            //if(pos.contains("VB"))
+                //verbs=verbs.concat(corelabel.originalText()+" ");
 
         }
        String S1=nouns+" "+adj+" "+verbs;
@@ -47,7 +49,7 @@ public class POS1 {
     verbs="";
     adj="";
     nouns="";
-    return S1;
+    return text;
     }
 
 //    //public void settext(String text){
