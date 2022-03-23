@@ -18,17 +18,16 @@ public class Device1 {
         P2.add("bright");
         P2.add("too dim");
         List<String> P3 = new ArrayList<>();
-        P3.add("Can't hear my ringtone");
-        P3.add("Cannot hear my ringtone");
+        P3.add("ringtone");
         List<String> P4 = new ArrayList<>();
-        P4.add("dies quickly");
-        P4.add("dies often");
+        P4.add("dies ");
+        P4.add("dies");
         List<String> P5 = new ArrayList<>();
         P5.add("slow");
         List<String> P6 = new ArrayList<>();
         P6.add("bluetooth");
         List<String> P7 = new ArrayList<>();
-        P7.add("Icloud is full");
+
         P7.add("icloud");
         List<String> P8 = new ArrayList<>();
         P8.add("touch screen stopped working");
