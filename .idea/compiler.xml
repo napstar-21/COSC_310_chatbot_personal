@@ -13,9 +13,4 @@
       <module name="ass3" target="15" />
     </bytecodeTargetLevel>
   </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="ass3" options="" />
-    </option>
-  </component>
 </project>
