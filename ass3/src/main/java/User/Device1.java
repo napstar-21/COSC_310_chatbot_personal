@@ -9,7 +9,7 @@ public class Device1 {
 
     public Device1() {
 
-//each problem has a list of keywords asociated with it
+//each problem has a list of keywords associated with it
         List<String> P1 = new ArrayList<>();
         P1.add("power");
         P1.add("turn on");
