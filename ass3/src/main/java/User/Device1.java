@@ -61,7 +61,9 @@ public class Device1 {
         P16.add("protector");
         P16.add("broken");
         List<String> P17 = new ArrayList<>();
+        P17.add("hello");
         List<String> P18 = new ArrayList<>();
+        P18.add("see you tomorrow");
         List<String> P19 = new ArrayList<>();
         List<String> P20 = new ArrayList<>();
         List<String> P21 = new ArrayList<>();
@@ -80,8 +82,8 @@ public class Device1 {
 
         //each problem has a User.solution
         String S1 = "plug it into power";
-        String S2 = "access sett" +
-                "the ringer";
+        String S2 = "access setting>display>brightness";
+        String S3 = "turn on the ringer";
         String S4 = "Get a new phone";
         String S5 = "close some apps";
         String S6 = "Make sure the device you want to pair with is in pairing mode,then check your settings";
@@ -95,8 +97,8 @@ public class Device1 {
         String S14 = "go to setting > accessibility > preferred > language";
         String S15 = "use the side button to adjust volume up or down";
         String S16 = "take to the shop and be more careful";
-        String S17 = "abc";
-        String S18 = "abc";
+        String S17 = "How can I help you";
+        String S18 = "See you tomorrow";
         String S19 = "abc";
         String S20 = "abc";
         String S21 = "abc";

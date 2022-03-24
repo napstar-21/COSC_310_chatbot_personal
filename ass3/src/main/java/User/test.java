@@ -15,6 +15,7 @@ public class test {
     @Test
     public void searchsomething(){
         Assert.assertEquals("plug it into power",sol.Findsol("my phone wont turn on"));
+
     }
     @Test
     public void searchnothing(){
@@ -22,7 +23,8 @@ public class test {
     }
     @Test
     public void searchnotther(){
-        Assert.assertEquals(" rephrase your problem I couldn't understand that ",sol.Findsol("I need a new phone"));//no keywords in search
+        String S2=sol.Findsol("hello");
+        Assert.assertEquals("what movie do you like",S2);//no keywords in search
     }
     @Test
     public void testsurvey() {

@@ -15,11 +15,11 @@ class Server {
         return str;
 
     }
-    public static void main(String[] args)
-            throws Exception
-    {
 
-        String str, str1;
+    public static void main(String[] args)
+            throws Exception {
+
+        String str, str1 = null;
         String trial;
         // Create server Socket
         ServerSocket ss = new ServerSocket(4999);
@@ -41,53 +41,69 @@ class Server {
         while (true) {
 
 
-
             // repeat as long as the client
             // does not send a null string
 
             // read from client
-            while ((str = br.readLine()) != null) {
-                //System.out.println(str);
-                //str is rahman's bot output.
-                //str1 = kb.readLine();
-                // STR1 = my bot's output.
-                //change str1 to ans
+            // while ((str = br.readLine()) != null) {
+            //System.out.println(str);
+            //str is rahman's bot output.
+            //str1 = kb.readLine();
+            // STR1 = my bot's output.
+            //change str1 to ans
 
-                // send bot answer to input to client
-                //ps.println(solution.Findsol(str));
+            // send bot answer to input to client
+            //ps.println(solution.Findsol(str));
+            //ps.println(str1);
+            //ps.println(ans);
+
+            //////
+
+//                  //  ps.println(str);
+//                    str1= br.readLine();
+//                    System.out.println(""str);
+//                   String S1 = sol.Findsol(str);
+//                    System.out.println(S1);
+            //str = kb.readLine();
+            //ps.println(str);
+            //ps.println(sol.Findsol(str1));
+            // ps.println(S1);
+
+
+            //  }
+
+
+            for (int i = 0; i<=20; i++) {
+                //System.out.println("server:" + str1);
                 //ps.println(str1);
-                //ps.println(ans);
 
-                //////
+                //if ((str = br.readLine()) != null) {
+                    str = br.readLine();
+                    if(str.equals("bye"))
+                        break;
+                    System.out.println("client: "+str);
+                    String ans = sol.Findsol(str);
+                    System.out.println("server:" + ans);
+                    ps.println(ans);
+                }
 
-                    ps.println(str);
-                    str1= br.readLine();
-                    System.out.println(str);
-                    System.out.println(sol.Findsol(str1));
-                    //str = kb.readLine();
-                    ps.println(str);
-                    ps.println(sol.Findsol(str1));
+                // close connection
+                ps.close();
+                br.close();
+                kb.close();
+                ss.close();
+                s.close();
 
+                // terminate application
+                System.exit(0);
 
-
-            }
-
-            // close connection
-            ps.close();
-            br.close();
-            kb.close();
-            ss.close();
-            s.close();
-
-            // terminate application
-            System.exit(0);
-
-        } // end of while
+            } // end of while
+        }
+        //String GetStr(){
+        //  return str;
+        //}
     }
-    //String GetStr(){
-      //  return str;
-    //}
-}
+
 /*
 while (!(str = cb.getChatbotResponse("bye")).equals("exit")) {
         dos.writeBytes(str+"\n");

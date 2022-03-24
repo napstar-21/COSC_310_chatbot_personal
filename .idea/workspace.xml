@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba4291f2-cf45-47ee-b88a-0d31a8b75cb8" name="Default Changelist" comment="POS in">
-      <change afterPath="$PROJECT_DIR$/ass3/SURV_Wed_Mar_23_17.20.58_PDT_2022.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_12.xml" beforeDir="false" />
+    <list default="true" id="ba4291f2-cf45-47ee-b88a-0d31a8b75cb8" name="Default Changelist" comment="test working">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ass3/ass3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/ass3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ass3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ass3/src/main/java/User/Device1.java" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/src/main/java/User/Device1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ass3/src/main/java/User/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/src/main/java/User/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ass3/src/main/java/User/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/src/main/java/User/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ass3/src/main/java/nlp/SpellCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/src/main/java/nlp/SpellCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ass3/target/classes/User/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/target/classes/User/test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,9 +51,9 @@
       <recent name="nlp" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.test.searchnotther">
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="User.main" />
+  <component name="RunManager" selected="Application.Server">
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="User.Server" />
       <module name="ass3" />
       <extension name="coverage">
         <pattern>
@@ -70,7 +65,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="User.main" />
       <module name="ass3" />
       <extension name="coverage">
         <pattern>
@@ -78,9 +74,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="User" />
-      <option name="MAIN_CLASS_NAME" value="User.test" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -158,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Server" />
         <item itemvalue="JUnit.test.searchnotther" />
+        <item itemvalue="Application.main" />
         <item itemvalue="JUnit.test.searchnothing" />
         <item itemvalue="JUnit.test.searchsomething" />
-        <item itemvalue="JUnit.test" />
-        <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648071024261</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test working">
+      <created>1648081902654</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1648081902655</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -223,15 +223,26 @@
     <MESSAGE value="9:48 deleted second SRC" />
     <MESSAGE value="logan bug fix" />
     <MESSAGE value="POS in" />
-    <option name="LAST_COMMIT_MESSAGE" value="POS in" />
+    <MESSAGE value="test working" />
+    <option name="LAST_COMMIT_MESSAGE" value="test working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/ass3/src/main/java/User/IO.java</url>
-          <line>35</line>
+          <line>45</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ass3/src/main/java/User/test.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ass3/src/main/java/User/Server.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
