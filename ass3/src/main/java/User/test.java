@@ -12,7 +12,7 @@ public class test {
     IO io = new IO(gui);
     @Test
     public void searchsomething(){
-        Assert.assertEquals("plug it into power",sol.Findsol("my phone wont turn on"));
+        Assert.assertEquals("Chatbot: on your apple, you should try to plug it into power",sol.Findsol("my phone wont turn on"));
 
     }
     @Test
@@ -22,7 +22,7 @@ public class test {
     @Test
     public void searchnotther(){
         String S2=sol.Findsol("hello");
-        Assert.assertEquals("what movie do you like",S2);//no keywords in search
+        Assert.assertEquals("Chatbot: How can I help you",S2);//no keywords in search
     }
     @Test
     public void testsurvey() {
