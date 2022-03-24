@@ -1,12 +1,10 @@
 package nlp;
 
-import com.google.gson.*;
-import kong.unirest.HttpResponse;
-import kong.unirest.JsonNode;
-import kong.unirest.Unirest;
 
-import java.io.UnsupportedEncodingException;
-import java.net.URLEncoder;
+
+import kong.unirest.Unirest;
+import kong.unirest.UnirestException;
+import kong.unirest.HttpResponse;
 import java.util.Arrays;
 
 public class SpellCheck {
@@ -26,7 +24,7 @@ public class SpellCheck {
 //    }
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws UnirestException {
         HttpResponse<String> response = Unirest.get(host + str)
                 .header("X-RapidAPI-Host", "spellcheck-tokenization-wordbreak.p.rapidapi.com")
                 .header("X-RapidAPI-Key", "0ed8cf5c0dmsha7fcae6f8ed1076p10cd87jsn35150723b6cc")
