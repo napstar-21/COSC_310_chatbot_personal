@@ -15,23 +15,23 @@ public class IO {
     Survey survey;
     nlp.POS1 pos = new POS1();
     Server server = new Server();
-    Device1 device1;
+    Apple apple;
     public IO(GUI1 gui){
 
         this.gui=gui;
-        device1 = new Device1();
-        solution sol = new solution(device1);
-    gui.reply("Hello! I am Team 30's Virtual Product Assistant"+"\n" +
-            "in order to exit the program enter exit or done\n"+
+        apple = new Apple();
+        solution sol = new solution();
+    gui.reply("Hello! I am Team 30's Virtual Product Assistant"+"\n" +"at anytime enter apple or android to switch to advice for the specified device\n"+
+            "I am set to default to apple products\n"+"in order to exit the program enter exit or done\n"+
             "Chatbot: How can I help you today?\n");
     }
     public IO(ClientGUI gui){
 
         this.gui=gui;
-        device1 = new Device1();
-        solution sol = new solution(device1);
-        gui.reply("Hello! I am Team 30's Virtual Product Assistant"+"\n" +
-                "in order to exit the program enter exit or done\n"+
+        apple = new Apple();
+        solution sol = new solution();
+        gui.reply("Hello! I am Team 30's Virtual Product Assistant"+"\n" +"at anytime enter apple or android to switch to advice for the specified device\n"+
+                "I am set to default to apple products\n"+"in order to exit the program enter exit or done\n"+
                 "Chatbot: How can I help you today?\n");
     }
     void button(String txt){
@@ -56,7 +56,7 @@ public class IO {
         else {
 
             //pos.lstring(txt);
-            gui.screenout("Chatbot: you should try to " + ans + ".\n Chatbot:What else can I help you with" + "\n");
+            gui.screenout( ans + ".\n Chatbot:What else can I help you with" + "\n");
             // add the bot's answer here, send to rahman
 
         }

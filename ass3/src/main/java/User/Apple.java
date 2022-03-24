@@ -2,12 +2,12 @@ package User;
 
 import java.util.*;
 
-public class Device1 {
+public class Apple extends Device {
 
-    List<List<String>> master = new ArrayList<>();
-    Map<List<String>, String> problems = new HashMap<>();
+    //List<List<String>> master = new ArrayList<>();
+    //Map<List<String>, String> problems = new HashMap<>();
 
-    public Device1() {
+    public Apple() {
 
 //each problem has a list of keywords associated with it
         List<String> P1 = new ArrayList<>();
@@ -65,7 +65,9 @@ public class Device1 {
         List<String> P18 = new ArrayList<>();
         P18.add("see you tomorrow");
         List<String> P19 = new ArrayList<>();
+        P19.add("android");
         List<String> P20 = new ArrayList<>();
+        P20.add("apple");
         List<String> P21 = new ArrayList<>();
         List<String> P22 = new ArrayList<>();
         List<String> P23 = new ArrayList<>();
@@ -81,26 +83,26 @@ public class Device1 {
         master = (Arrays.asList(P1, P2, P3, P4, P5, P6, P7, P8, P9, P10, P11, P12, P13, P14, P15, P16, P17, P18, P18, P19, P20));
 
         //each problem has a User.solution
-        String S1 = "plug it into power";
-        String S2 = "access setting>display>brightness";
-        String S3 = "turn on the ringer";
-        String S4 = "Get a new phone";
-        String S5 = "close some apps";
-        String S6 = "Make sure the device you want to pair with is in pairing mode,then check your settings";
-        String S7 = "You need to access setting and pay for more Icloud storage";
-        String S8 = "touch it software";
-        String S9 = "tap the safari icon";
-        String S10 = "For more information on your cell phone provider, Please contact them";
-        String S11 = "Go to your home router,then settings and select the given name and then enter password";
-        String S12 = "Use the calendar tool that comes with your model";
-        String S13 = "Go to wallet app, press add card, add card details";
-        String S14 = "go to setting > accessibility > preferred > language";
-        String S15 = "use the side button to adjust volume up or down";
-        String S16 = "take to the shop and be more careful";
-        String S17 = "How can I help you";
-        String S18 = "See you tomorrow";
-        String S19 = "abc";
-        String S20 = "abc";
+        String S1 = "Chatbot: on your apple, you should try to plug it into power";
+        String S2 = "Chatbot: on your apple, you should try access setting>display>brightness";
+        String S3 = "Chatbot: on your apple, you should try turn on the ringer";
+        String S4 = "Chatbot: You should try to get a new Android";
+        String S5 = "Chatbot: on your apple, you should try to close some apps";
+        String S6 = "Chatbot: on your apple, you should try to make sure the device you want to pair with is in pairing mode,then check your settings";
+        String S7 = "Chatbot: on your apple, you should try to access setting and pay for more Icloud storage";
+        String S8 = "Chatbot: on your apple, you should try to touch it software";
+        String S9 = "Chatbot: on your apple, you should try to tap the safari icon";
+        String S10 ="Chatbot: For more information on your cell phone provider, Please contact them";
+        String S11 ="Chatbot: Go to your home router,then settings and select the given name and then enter password";
+        String S12 = "Chatbot: on your apple, you should try to use the calendar tool that comes with your model";
+        String S13 = "Chatbot: on your apple, you should try to go to wallet app, press add card, add card details";
+        String S14 = "Chatbot: on your apple, you should try to go to setting > accessibility > preferred > language";
+        String S15 = "Chatbot: on your apple, you should try to use the side button to adjust volume up or down";
+        String S16 = "Chatbot: you should take your apple device to the shop and be more careful";
+        String S17 = "Chatbot: How can I help you";
+        String S18 = "Chatbot: See you tomorrow";
+        String S19 = "Chatbot: you are already in apple support. ";
+        String S20 = "Chatbot: You are already in apple support";
         String S21 = "abc";
         String S22 = "abc";
         String S23 = "abc";

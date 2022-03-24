@@ -100,7 +100,7 @@ class GUI1 extends JFrame{
     //SELECT-one-of-the-following method
 
     //The REPLY METHOD
-    public void reply(String input) {area.append("Chatbot: you should try to " + input + "\n");}
+    public void reply(String input) {area.append( input + "\n");}
     public void screenout(String text){area.append(text);}
 
 

@@ -7,11 +7,14 @@ import java.util.List;
 import java.util.Locale;
 
 public class solution {
-    static Device1 d1;
+    static Device d1;
     private static String keyword;
-
-    public solution(Device1 device) {
-        d1 = device;
+    static Device apple = new Apple();
+    static Device android = new Android();
+   static Boolean dev;
+    public solution() {
+        d1 = apple;
+        dev=true;
 
 
     }
@@ -40,13 +43,25 @@ public class solution {
 
         if (keyword.equals("not found")) {//match keyword to its list and find User.solution that acompanies key vale
             ArrayList<String> setResponses = new ArrayList<String>();
-            setResponses.add(" rephrase your problem. I couldn't understand that");
-            setResponses.add(" check your spelling. My programming is key-sensitive!");
-            setResponses.add(" answer in a one to two word manner. Example: data, power off, damage, etc..");
-            setResponses.add(" get better at spelling because I cannot follow.");
-            setResponses.add(" go back to school..\n maybe read a book or two, \n eventually learn how to spell, and return with good grammer. ");
+            setResponses.add("Chatbot: rephrase your problem. I couldn't understand that");
+            setResponses.add("Chatbot: check your spelling. My programming is key-sensitive!");
+            setResponses.add("Chatbot: answer in a one to two word manner. Example: data, power off, damage, etc..");
+            setResponses.add("Chatbot: get better at spelling because I cannot follow.");
+            setResponses.add("Chatbot: go back to school..\n maybe read a book or two, \n eventually learn how to spell, and return with good grammer. ");
             return (setResponses.get((int) (Math.random()*5)) );
         }
+        if(keyword.equals("apple")&&!dev) {
+            d1 = apple;
+            dev=false;
+            return"Chatbot:switching to apple";
+        }
+
+        if(keyword.equals("android")&&dev) {
+            d1 = android;
+            dev = true;
+            return "Chatbot:switching to Android";
+        }
+
         for (int i = 0; i < d1.master.size(); i++) {
             for (int j = 0; j < d1.master.get(i).size(); j++) {
                 if (d1.master.get(i).get(j).equals(keyword)) {

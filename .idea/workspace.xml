@@ -4,12 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba4291f2-cf45-47ee-b88a-0d31a8b75cb8" name="Default Changelist" comment="more API">
+    <list default="true" id="ba4291f2-cf45-47ee-b88a-0d31a8b75cb8" name="Default Changelist" comment="MULTIPLE responses for nothing found">
+      <change afterPath="$PROJECT_DIR$/ass3/src/main/java/User/Android.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ass3/ass3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/ass3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ass3/src/main/java/User/Device.java" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/src/main/java/User/Device.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ass3/src/main/java/User/Device1.java" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/src/main/java/User/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ass3/src/main/java/User/GUI1.java" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/src/main/java/User/GUI1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ass3/src/main/java/User/IO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/src/main/java/User/IO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ass3/src/main/java/User/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/src/main/java/User/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ass3/src/main/java/User/solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/src/main/java/User/solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ass3/src/main/java/nlp/POS1.java" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/src/main/java/nlp/POS1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ass3/target/classes/nlp/POS1.class" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/target/classes/nlp/POS1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ass3/target/classes/nlp/tokenisation.class" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/target/classes/nlp/tokenisation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ass3/src/main/java/User/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/src/main/java/User/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ass3/target/classes/User/Device.class" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/target/classes/User/Device.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ass3/target/classes/User/Device1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ass3/target/classes/User/GUI1.class" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/target/classes/User/GUI1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ass3/target/classes/User/IO.class" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/target/classes/User/IO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ass3/target/classes/User/solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/target/classes/User/solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ass3/target/classes/User/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/target/classes/User/test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +37,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="26XiCkc1EBmUzUEUnarkQaFTjTS" />
   <component name="ProjectLevelVcsManager">
@@ -204,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648110140831</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="MULTIPLE responses for nothing found">
+      <created>1648144087053</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1648144087053</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,25 +253,26 @@
     <MESSAGE value="POS in" />
     <MESSAGE value="test working" />
     <MESSAGE value="more API" />
-    <option name="LAST_COMMIT_MESSAGE" value="more API" />
+    <MESSAGE value="MULTIPLE responses for nothing found" />
+    <option name="LAST_COMMIT_MESSAGE" value="MULTIPLE responses for nothing found" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ass3/src/main/java/User/IO.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/ass3/src/main/java/User/test.java</url>
-          <line>25</line>
+          <line>23</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/ass3/src/main/java/User/Server.java</url>
           <line>61</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ass3/src/main/java/User/solution.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/ass3/src/main/java/nlp/SpellCheck.java</url>

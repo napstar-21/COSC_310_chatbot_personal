@@ -1,16 +1,14 @@
 package User;
 
-import User.Device1;
 //import User.Survey;
-import User.solution;
 import org.junit.Assert;
 import org.junit.Test;
 
 public class test {
 
     GUI1 gui = new GUI1();
-    Device1 device = new Device1();
-    solution sol = new solution(device);
+    Apple device = new Apple();
+    solution sol = new solution();
     IO io = new IO(gui);
     @Test
     public void searchsomething(){

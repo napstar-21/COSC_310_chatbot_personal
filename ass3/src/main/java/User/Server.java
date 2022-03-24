@@ -8,8 +8,8 @@ import java.net.*;
 
 class Server {
     String str, str1;
-    static Device1 device = new Device1();
-    static solution sol = new solution(device);
+    static Apple device = new Apple();
+    static solution sol = new solution();
 
     public String getStr() {
         return str;
