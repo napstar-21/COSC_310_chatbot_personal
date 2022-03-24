@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba4291f2-cf45-47ee-b88a-0d31a8b75cb8" name="Default Changelist" comment="Added new API and dependecies">
-      <change afterPath="$PROJECT_DIR$/ass3/src/main/java/nlp/Synonym.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_4_1_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ass3/src/main/java/nlp/POS1.java" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/src/main/java/nlp/POS1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ass3/src/main/java/nlp/SpellCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/src/main/java/nlp/SpellCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ass3/target/classes/nlp/POS1.class" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/target/classes/nlp/POS1.class" afterDir="false" />
-    </list>
+    <list default="true" id="ba4291f2-cf45-47ee-b88a-0d31a8b75cb8" name="Default Changelist" comment="Added new synonym API" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +44,7 @@
       <recent name="nlp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SpellCheck">
+  <component name="RunManager" selected="Application.Synonym">
     <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="User.Server" />
       <module name="ass3" />
@@ -149,8 +138,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SpellCheck" />
         <item itemvalue="Application.Synonym" />
+        <item itemvalue="Application.SpellCheck" />
         <item itemvalue="Application.Server" />
         <item itemvalue="JUnit.test.searchnotther" />
         <item itemvalue="Application.main" />
@@ -208,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648103808654</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added new synonym API">
+      <created>1648151796519</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1648151796519</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,7 +226,8 @@
     <MESSAGE value="test working" />
     <MESSAGE value="Added new API amd dependecies" />
     <MESSAGE value="Added new API and dependecies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new API and dependecies" />
+    <MESSAGE value="Added new synonym API" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new synonym API" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
