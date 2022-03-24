@@ -80,8 +80,8 @@ public class Device1 {
 
         //each problem has a User.solution
         String S1 = "plug it into power";
-        String S2 = "access setting>display>brightness";
-        String S3 = "turn on the ringer";
+        String S2 = "access sett" +
+                "the ringer";
         String S4 = "Get a new phone";
         String S5 = "close some apps";
         String S6 = "Make sure the device you want to pair with is in pairing mode,then check your settings";

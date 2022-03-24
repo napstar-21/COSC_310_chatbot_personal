@@ -8,21 +8,21 @@ import org.junit.Test;
 
 public class test {
 
-
+    GUI1 gui = new GUI1();
     Device1 device = new Device1();
     solution sol = new solution(device);
-
+    IO io = new IO(gui);
     @Test
     public void searchsomething(){
-        Assert.assertEquals("plug into power",sol.Findsol("plug in to power"));
+        Assert.assertEquals("plug it into power",sol.Findsol("my phone wont turn on"));
     }
     @Test
     public void searchnothing(){
-        Assert.assertEquals("I couldn't understand that please try and rephrase your problem",sol.Findsol(""));
+        Assert.assertEquals(" rephrase your problem I couldn't understand that ",sol.Findsol(""));
     }
     @Test
     public void searchnotther(){
-        Assert.assertEquals("I couldn't understand that please try and rephrase your problem",sol.Findsol("I need a new phone"));//no keywords in search
+        Assert.assertEquals(" rephrase your problem I couldn't understand that ",sol.Findsol("I need a new phone"));//no keywords in search
     }
     @Test
     public void testsurvey() {
