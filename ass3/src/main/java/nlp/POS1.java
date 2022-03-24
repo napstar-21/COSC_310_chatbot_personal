@@ -36,7 +36,7 @@ public class POS1 {
             System.out.println( corelabel.originalText()+" = "+pos);
 
             if(!pos.contains("NN")&&!pos.contains("JJ")&&!pos.contains("IN")&&!pos.contains("VB"))
-                text=text.replace(" "+corelabel.originalText(),"" );
+                text=text.replace(corelabel.originalText()+" ","" );
                 //nouns=nouns.concat(corelabel.originalText()+" ");
             //if (pos.contains("JJ")||pos.contains("IN"))
                 //adj=adj.concat(corelabel.originalText()+" ");
@@ -46,11 +46,12 @@ public class POS1 {
         }
        String S1=nouns+" "+adj+" "+verbs;
         String S2=("nouns: "+nouns+" adj: "+adj+" verbs: "+verbs);
-        System.out.println(S2);
+       // System.out.println(S2);
     verbs="";
     adj="";
     nouns="";
-    text=tok.run(text);
+   // text=tok.run(text);
+        System.out.println(text);
     return text;
     }
 

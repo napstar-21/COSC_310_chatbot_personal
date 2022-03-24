@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba4291f2-cf45-47ee-b88a-0d31a8b75cb8" name="Default Changelist" comment="test working">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_4_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_13.xml" afterDir="false" />
+    <list default="true" id="ba4291f2-cf45-47ee-b88a-0d31a8b75cb8" name="Default Changelist" comment="more API">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ass3/ass3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/ass3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ass3/src/main/java/User/solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/src/main/java/User/solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ass3/src/main/java/nlp/POS1.java" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/src/main/java/nlp/POS1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ass3/src/main/java/nlp/SpellCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/src/main/java/nlp/SpellCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ass3/src/main/java/nlp/tokenisation.java" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/src/main/java/nlp/tokenisation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ass3/target/classes/User/Device1.class" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/target/classes/User/Device1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ass3/target/classes/nlp/POS1.class" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/target/classes/nlp/POS1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ass3/target/classes/nlp/tokenisation.class" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/target/classes/nlp/tokenisation.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +40,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../nils310/COSC-310-main" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -203,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648081902655</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="more API">
+      <created>1648110140830</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1648110140831</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,7 +225,8 @@
     <MESSAGE value="logan bug fix" />
     <MESSAGE value="POS in" />
     <MESSAGE value="test working" />
-    <option name="LAST_COMMIT_MESSAGE" value="test working" />
+    <MESSAGE value="more API" />
+    <option name="LAST_COMMIT_MESSAGE" value="more API" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
