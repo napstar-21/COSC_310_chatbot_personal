@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba4291f2-cf45-47ee-b88a-0d31a8b75cb8" name="Default Changelist" comment="test working">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_4_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_13.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ass3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ass3/ass3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/ass3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ass3/src/main/java/nlp/POS1.java" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/src/main/java/nlp/POS1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ass3/src/main/java/nlp/SpellCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/src/main/java/nlp/SpellCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ass3/src/main/java/nlp/tokenisation.java" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/src/main/java/nlp/tokenisation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ass3/target/classes/User/Device1.class" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/target/classes/User/Device1.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +57,7 @@
       <recent name="nlp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SpellCheck">
+  <component name="RunManager" selected="Application.main">
     <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="User.Server" />
       <module name="ass3" />
@@ -89,18 +97,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test.searchnothing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="tokenisation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nlp.tokenisation" />
       <module name="ass3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="User.*" />
+          <option name="PATTERN" value="nlp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="User" />
-      <option name="MAIN_CLASS_NAME" value="User.test" />
-      <option name="METHOD_NAME" value="searchnothing" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -146,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.main" />
         <item itemvalue="Application.SpellCheck" />
+        <item itemvalue="Application.tokenisation" />
         <item itemvalue="Application.Server" />
         <item itemvalue="JUnit.test.searchnotther" />
-        <item itemvalue="Application.main" />
-        <item itemvalue="JUnit.test.searchnothing" />
       </list>
     </recent_temporary>
   </component>
@@ -211,6 +216,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -237,6 +243,14 @@
           <url>file://$PROJECT_DIR$/ass3/src/main/java/User/Server.java</url>
           <line>61</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/ass3/src/main/java/nlp/SpellCheck.java</url>
+          <line>26</line>
+          <properties class="nlp.SpellCheck" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

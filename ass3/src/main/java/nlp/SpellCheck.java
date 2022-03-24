@@ -8,7 +8,7 @@ import kong.unirest.HttpResponse;
 import java.util.Arrays;
 
 public class SpellCheck {
-    static String str = "this iss sparta!!!";
+    static String str = "my phon is brokenn";
     static String host = "https://spellcheck-tokenization-wordbreak.p.rapidapi.com/v1/spellcheck?str=";
     static Arrays s;
 //    static String charset = "UTF-8";
@@ -25,7 +25,9 @@ public class SpellCheck {
 
 
     public static void main(String[] args) throws UnirestException {
-        HttpResponse<String> response = Unirest.get(host + str)
+
+       String fix = str.replace(" ","");
+        HttpResponse<String> response = Unirest.get(host + fix)
                 .header("X-RapidAPI-Host", "spellcheck-tokenization-wordbreak.p.rapidapi.com")
                 .header("X-RapidAPI-Key", "0ed8cf5c0dmsha7fcae6f8ed1076p10cd87jsn35150723b6cc")
                 .asString();
@@ -42,8 +44,25 @@ public class SpellCheck {
 //        JsonParser parse = new JsonParser();
 //        JsonObject inter = new JsonObject();
 
+//
 //        System.out.println(response.getHeaders().get("suggestions"));
-        System.out.println(response.getBody());
+        String output=response.getBody();
+//        output=output.substring(166+(2*str.length()),output.length() - 39);
+        System.out.println(output);
+        String correctedword;
         }
+    public static String correct(String string) throws UnirestException {
+        String txt=string.replace(" ","");
+        HttpResponse<String> response = Unirest.get(host + txt)
+                .header("X-RapidAPI-Host", "spellcheck-tokenization-wordbreak.p.rapidapi.com")
+                .header("X-RapidAPI-Key", "0ed8cf5c0dmsha7fcae6f8ed1076p10cd87jsn35150723b6cc")
+                .asString();
+
+//        System.out.println(response.getHeaders().get("suggestions"));
+        String output=response.getBody();
+        output=output.substring(166+(2*txt.length()),output.length() - 39);
+        return(output);
+
+    }
     }
 

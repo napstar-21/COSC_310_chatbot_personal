@@ -12,6 +12,7 @@ public class POS1 {
     private static String adj="";
     private static String verbs="";
     private static String text;
+    static tokenisation tok = new tokenisation();
     public POS1(){
 
     }
@@ -49,6 +50,7 @@ public class POS1 {
     verbs="";
     adj="";
     nouns="";
+    text=tok.run(text);
     return text;
     }
 

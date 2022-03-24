@@ -8,26 +8,35 @@ import java.util.List;
 
 public class tokenisation {
 
-    public static void main(String[] args) {
+     static SpellCheck spellCheck = new SpellCheck();
+
+    private static String Rtext="";
+    String text;
+//String Rtext="";
+   // public static void main(String txt) {
+   public static void main(String[] args) {
+       run("thiss iss Sparta");
+   }
+   public static String run(String text){
     StanfordCoreNLP stanfordCoreNLP= pipeline.getPipeline();
 
-    String text = "blu yelow reed read giont";
 
+//text=txt;
         CoreDocument coreDocument = new CoreDocument(text);
         stanfordCoreNLP.annotate(coreDocument);
 
         List<CoreLabel> coreLabelList = coreDocument.tokens();
         String word;
 
-        Stemmer spellCheck = new Stemmer();
+
         for(CoreLabel coreLabel:coreLabelList){
             word = coreLabel.originalText();
-            spellCheck.add(word.toCharArray(), word.toCharArray().length);
-            spellCheck.stem();
-            String u = spellCheck.toString();
-            System.out.println(u);
+           word= spellCheck.correct(word);
+            Rtext=Rtext+word+" ";
 
         }
 
+       System.out.println(Rtext);
+        return Rtext;
     }
 }
