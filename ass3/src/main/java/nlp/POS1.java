@@ -50,7 +50,7 @@ public class POS1 {
     verbs="";
     adj="";
     nouns="";
-   // text=tok.run(text);
+    text=tok.run(text);
         System.out.println(text);
     return text;
     }

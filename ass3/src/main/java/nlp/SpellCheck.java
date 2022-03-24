@@ -8,7 +8,7 @@ import kong.unirest.HttpResponse;
 import java.util.Arrays;
 
 public class SpellCheck {
-    static String str = "my phon is brokenn";
+    static String str = "myphoneisbroken";
     static String host = "https://spellcheck-tokenization-wordbreak.p.rapidapi.com/v1/spellcheck?str=";
     static Arrays s;
 //    static String charset = "UTF-8";
