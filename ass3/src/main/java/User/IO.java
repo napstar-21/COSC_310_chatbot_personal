@@ -1,6 +1,7 @@
 package User;
 
 import nlp.POS1;
+import nlp.SpellCheck;
 
 
 public class IO {
@@ -42,6 +43,7 @@ public class IO {
     }
 
     void solfind(String txt){
+        txt = SpellCheck.correct(txt);
         txt = pos.lstring(txt);
         String ans= solution.Findsol(txt);
        if(exit){

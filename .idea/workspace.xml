@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba4291f2-cf45-47ee-b88a-0d31a8b75cb8" name="Default Changelist" comment="Added new synonym API" />
+    <list default="true" id="ba4291f2-cf45-47ee-b88a-0d31a8b75cb8" name="Default Changelist" comment="Added new synonym API">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ass3/src/main/java/User/IO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/src/main/java/User/IO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ass3/src/main/java/nlp/SpellCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/src/main/java/nlp/SpellCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ass3/target/classes/User/IO.class" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/target/classes/User/IO.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +49,7 @@
       <recent name="nlp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Synonym">
+  <component name="RunManager" selected="Application.main">
     <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="User.Server" />
       <module name="ass3" />
@@ -138,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Synonym" />
+        <item itemvalue="Application.main" />
         <item itemvalue="Application.SpellCheck" />
+        <item itemvalue="Application.Synonym" />
         <item itemvalue="Application.Server" />
         <item itemvalue="JUnit.test.searchnotther" />
-        <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648151796519</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added new synonym API">
+      <created>1648152147964</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1648152147964</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -232,11 +244,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ass3/src/main/java/User/IO.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/ass3/src/main/java/User/test.java</url>
           <line>23</line>
