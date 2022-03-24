@@ -5,28 +5,26 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-//import User.Device;
-//import nlp.POS;
-class GUI1 extends JFrame{
+public class ClientGUI extends GUI1 {
 
     public JTextArea area = new JTextArea(); //Chat Area
-   private JScrollPane scroll;
+    private JScrollPane scroll;
     public JTextField field = new JTextField();//Chat Field
     private JButton button = new JButton();// The Button
     private JLabel label = new JLabel();// A label for the button (i.e., "return")
-
+    Server server = new Server();
 
     Boolean ex = false;
     int excount = 0;
 
-   public GUI1(){
+    public ClientGUI(){
 
-       //adds scrollable feature
-       scroll = new JScrollPane();
-       scroll.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
-       scroll.setSize(500,420);
-       scroll.getViewport().setBackground(Color.black);
-       scroll.getViewport().add(area);
+        //adds scrollable feature
+        scroll = new JScrollPane();
+        scroll.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
+        scroll.setSize(500,420);
+        scroll.getViewport().setBackground(Color.black);
+        scroll.getViewport().add(area);
 
 
 
@@ -43,7 +41,7 @@ class GUI1 extends JFrame{
 
         //Adding different parts to frame
         //frame.add(area);
-       frame.add(scroll);
+        frame.add(scroll);
         frame.add(field);
         frame.add(button);
 
@@ -71,7 +69,7 @@ class GUI1 extends JFrame{
         label.setAlignmentY(button.getAlignmentY()-2);
         button.add(label); //Assigning the Label to the Bottom
 
-       IO io = new IO(this);
+        IO io = new IO(this);
 
         //opening statement
 //        area.append("Hello! I am Team 30's Virtual Product Assistant"+"\n" +
@@ -87,8 +85,8 @@ class GUI1 extends JFrame{
                 if(e.getSource()==button) {
                     //Getting text from user once BUTTON is pressed
                     String userText = field.getText().toLowerCase();//evrything to lower case
-                   io.button(userText);
-                   io.solfind(userText);
+                    io.button(server.getStr());
+                    io.solfind(server.getStr());
 
                 }
 
@@ -108,3 +106,5 @@ class GUI1 extends JFrame{
         System.exit(10);
     }
 }
+
+

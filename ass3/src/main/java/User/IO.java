@@ -14,6 +14,7 @@ public class IO {
     int excount=0;
     Survey survey;
     nlp.POS1 pos = new POS1();
+    Server server = new Server();
     Device1 device1;
     public IO(GUI1 gui){
 
@@ -24,11 +25,20 @@ public class IO {
             "in order to exit the program enter exit or done\n"+
             "Chatbot: How can I help you today?\n");
     }
+    public IO(ClientGUI gui){
 
+        this.gui=gui;
+        device1 = new Device1();
+        solution sol = new solution(device1);
+        gui.reply("Hello! I am Team 30's Virtual Product Assistant"+"\n" +
+                "in order to exit the program enter exit or done\n"+
+                "Chatbot: How can I help you today?\n");
+    }
     void button(String txt){
-        gui.screenout("You: " + txt + "\n");//user input is added to text area
+        gui.screenout("Client: " + txt + "\n");//user input is added to text area
         gui.field.setText("");//reset input box
    usertext=txt;
+   // receive rahman's text here.
     }
 
     void solfind(String txt){
@@ -47,6 +57,8 @@ public class IO {
 
             //pos.lstring(txt);
             gui.screenout("Chatbot: you should try to " + ans + ".\n Chatbot:What else can I help you with" + "\n");
+            // add the bot's answer here, send to rahman
+
         }
 
 
@@ -65,3 +77,5 @@ public class IO {
     }
 
 }
+
+
