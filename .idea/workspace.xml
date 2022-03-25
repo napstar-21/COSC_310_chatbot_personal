@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba4291f2-cf45-47ee-b88a-0d31a8b75cb8" name="Default Changelist" comment="Added new synonym API">
+    <list default="true" id="ba4291f2-cf45-47ee-b88a-0d31a8b75cb8" name="Default Changelist" comment="SpellCheck is working properly">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ass3/src/main/java/User/IO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/src/main/java/User/IO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ass3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ass3/src/main/java/User/solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/src/main/java/User/solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ass3/src/main/java/nlp/SpellCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/src/main/java/nlp/SpellCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ass3/target/classes/User/IO.class" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/target/classes/User/IO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ass3/src/main/java/nlp/Synonym.java" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/src/main/java/nlp/Synonym.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ass3/src/main/java/nlp/tokenisation.java" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/src/main/java/nlp/tokenisation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ass3/target/classes/User/solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/target/classes/User/solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ass3/target/classes/nlp/tokenisation.class" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/target/classes/nlp/tokenisation.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648152147964</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="SpellCheck is working properly">
+      <created>1648159987622</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1648159987622</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,7 +250,8 @@
     <MESSAGE value="Added new API amd dependecies" />
     <MESSAGE value="Added new API and dependecies" />
     <MESSAGE value="Added new synonym API" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new synonym API" />
+    <MESSAGE value="SpellCheck is working properly" />
+    <option name="LAST_COMMIT_MESSAGE" value="SpellCheck is working properly" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -253,6 +265,11 @@
           <url>file://$PROJECT_DIR$/ass3/src/main/java/User/Server.java</url>
           <line>61</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ass3/src/main/java/User/solution.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

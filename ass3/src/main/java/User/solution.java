@@ -40,7 +40,7 @@ public class solution {
                 }
             }
         }
-
+            Q = "";
         if (keyword.equals("not found")) {//match keyword to its list and find User.solution that acompanies key vale
             ArrayList<String> setResponses = new ArrayList<String>();
             setResponses.add("Chatbot: rephrase your problem. I couldn't understand that");
@@ -52,13 +52,13 @@ public class solution {
         }
         if(keyword.equals("apple")&&!dev) {
             d1 = apple;
-            dev=false;
+            dev=true;
             return"Chatbot:switching to apple";
         }
 
         if(keyword.equals("android")&&dev) {
             d1 = android;
-            dev = true;
+            dev = false;
             return "Chatbot:switching to Android";
         }
 

@@ -10,7 +10,7 @@ public class tokenisation {
 
      static SpellCheck spellCheck = new SpellCheck();
 
-    private static String Rtext="";
+    private static String Rtext;
     String text;
 //String Rtext="";
    // public static void main(String txt) {
@@ -18,6 +18,7 @@ public class tokenisation {
        run("thiss iss Sparta");
    }
    public static String run(String text){
+       Rtext = "";
     StanfordCoreNLP stanfordCoreNLP= pipeline.getPipeline();
 
 
