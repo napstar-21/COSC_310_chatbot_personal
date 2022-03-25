@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba4291f2-cf45-47ee-b88a-0d31a8b75cb8" name="Default Changelist" comment="A few bug fixes">
-      <change afterPath="$PROJECT_DIR$/ass3/SURV_Thu_Mar_24_17.25.48_PDT_2022.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ass3/src/main/java/User/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/src/main/java/User/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ass3/src/main/java/nlp/SpellCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/src/main/java/nlp/SpellCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ass3/target/classes/User/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/target/classes/User/test.class" afterDir="false" />
-    </list>
+    <list default="true" id="ba4291f2-cf45-47ee-b88a-0d31a8b75cb8" name="Default Changelist" comment="Test added for spellchecker" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +44,7 @@
       <recent name="nlp" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.test.SpellCheck">
+  <component name="RunManager" selected="Application.main">
     <configuration name="SpellCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="nlp.SpellCheck" />
       <module name="ass3" />
@@ -149,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.main" />
         <item itemvalue="JUnit.test.SpellCheck" />
         <item itemvalue="Application.SpellCheck" />
         <item itemvalue="JUnit.test" />
         <item itemvalue="JUnit.test.searchnotther" />
-        <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648167815263</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Test added for spellchecker">
+      <created>1648168913448</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1648168913448</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -261,7 +262,8 @@
     <MESSAGE value="Added new synonym API" />
     <MESSAGE value="SpellCheck is working properly" />
     <MESSAGE value="A few bug fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="A few bug fixes" />
+    <MESSAGE value="Test added for spellchecker" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test added for spellchecker" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
