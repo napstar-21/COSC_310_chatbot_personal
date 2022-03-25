@@ -3,6 +3,7 @@ package User;
 //import User.Survey;
 import org.junit.Assert;
 import org.junit.Test;
+import nlp.SpellCheck;
 
 public class test {
 
@@ -36,4 +37,17 @@ public class test {
 
 
     }
+    @Test
+    public void SpellCheck() {
+        SpellCheck check = new SpellCheck();
+        String textWord = "i amm the Smartesst mann alive";
+        String test = check.correct(textWord);
+
+
+        Assert.assertEquals("i am the smartest man alive", test);
+
+
+
+    }
+
 }

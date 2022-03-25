@@ -12,7 +12,7 @@ import java.util.List;
 
 
 public class SpellCheck {
-    static String str = "my phone iss brokenn hellp me";
+    static String str = "IammSmarrtes man alive";
     static String host = "https://spellcheck-tokenization-wordbreak.p.rapidapi.com/v1/spellcheck?str=";
 
 //test fot the functionality of the spellcheck api and how to process it's output

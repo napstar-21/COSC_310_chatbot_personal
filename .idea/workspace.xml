@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba4291f2-cf45-47ee-b88a-0d31a8b75cb8" name="Default Changelist" comment="SpellCheck is working properly">
+    <list default="true" id="ba4291f2-cf45-47ee-b88a-0d31a8b75cb8" name="Default Changelist" comment="A few bug fixes">
+      <change afterPath="$PROJECT_DIR$/ass3/SURV_Thu_Mar_24_17.25.48_PDT_2022.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ass3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ass3/src/main/java/User/solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/src/main/java/User/solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ass3/src/main/java/User/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/src/main/java/User/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ass3/src/main/java/nlp/SpellCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/src/main/java/nlp/SpellCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ass3/src/main/java/nlp/Synonym.java" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/src/main/java/nlp/Synonym.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ass3/src/main/java/nlp/tokenisation.java" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/src/main/java/nlp/tokenisation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ass3/target/classes/User/solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/target/classes/User/solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ass3/target/classes/nlp/tokenisation.class" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/target/classes/nlp/tokenisation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ass3/target/classes/User/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/ass3/target/classes/User/test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,35 +50,9 @@
       <recent name="nlp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.main">
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="User.Server" />
-      <module name="ass3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="User.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.test.SpellCheck">
     <configuration name="SpellCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="nlp.SpellCheck" />
-      <module name="ass3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="nlp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Synonym" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nlp.Synonym" />
       <module name="ass3" />
       <extension name="coverage">
         <pattern>
@@ -102,6 +73,37 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ass3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="User.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="User" />
+      <option name="MAIN_CLASS_NAME" value="User.test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.SpellCheck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ass3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="User.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="User" />
+      <option name="MAIN_CLASS_NAME" value="User.test" />
+      <option name="METHOD_NAME" value="SpellCheck" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -147,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.main" />
+        <item itemvalue="JUnit.test.SpellCheck" />
         <item itemvalue="Application.SpellCheck" />
-        <item itemvalue="Application.Synonym" />
-        <item itemvalue="Application.Server" />
+        <item itemvalue="JUnit.test" />
         <item itemvalue="JUnit.test.searchnotther" />
+        <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648159987622</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="A few bug fixes">
+      <created>1648167815263</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1648167815263</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -251,14 +260,15 @@
     <MESSAGE value="Added new API and dependecies" />
     <MESSAGE value="Added new synonym API" />
     <MESSAGE value="SpellCheck is working properly" />
-    <option name="LAST_COMMIT_MESSAGE" value="SpellCheck is working properly" />
+    <MESSAGE value="A few bug fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="A few bug fixes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/ass3/src/main/java/User/test.java</url>
-          <line>23</line>
+          <line>24</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
