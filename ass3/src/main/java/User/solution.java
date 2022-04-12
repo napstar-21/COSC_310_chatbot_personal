@@ -8,10 +8,11 @@ import java.util.Locale;
 
 public class solution {
     static Device d1;
-    private static String keyword;
+    public static String keyword;
     static Device apple = new Apple();
     static Device android = new Android();
    static Boolean dev;
+
     public solution() {
         d1 = apple;
         dev=true;
@@ -22,6 +23,7 @@ public class solution {
 
 
     public static String Findsol(String Q) {//takes in Sting
+
         Q = Q.toLowerCase(Locale.ROOT);//convert to lowercase
         Boolean ex = false;
         if(Q.equals("exit")||Q.equals("done"))//check if user entered an exit phrase
@@ -33,6 +35,7 @@ public class solution {
             for (int j = 0; j < L1.size(); j++) {
                 if (Q.contains(L1.get(j))) {
                     keyword = (L1.get(j));
+
                     ex = true;
                     break;
                 } else {

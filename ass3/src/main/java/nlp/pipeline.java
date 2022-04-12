@@ -7,8 +7,8 @@ import java.util.Properties;
 public class pipeline {
 
     private static StanfordCoreNLP stanfordCoreNlp;
-    private static String propertiesName = "tokenize, ssplit, pos";
-    private static Properties properties;
+    private static final String propertiesName = "tokenize, ssplit, pos";
+    private static final Properties properties;
 
 
     private void Pipeline () {

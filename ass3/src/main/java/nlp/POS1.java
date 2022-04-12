@@ -1,4 +1,5 @@
-package nlp;
+/*package nlp;
+
 import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.pipeline.CoreDocument;
@@ -12,7 +13,7 @@ public class POS1 {
     private static String adj="";
     private static String verbs="";
     private static String text;
-    static tokenisation tok = new tokenisation();
+    //static tokenisation tok = new tokenisation();
     public POS1(){
 
     }
@@ -50,7 +51,7 @@ public class POS1 {
     verbs="";
     adj="";
     nouns="";
-    text=tok.run(text);
+    text= tokenisation.run(text);
         System.out.println(text);
     return text;
     }
@@ -61,3 +62,4 @@ public class POS1 {
 
 }
 
+*/

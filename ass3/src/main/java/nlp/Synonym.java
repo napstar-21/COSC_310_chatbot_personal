@@ -1,4 +1,4 @@
-package nlp;
+/*package nlp;
 
 import kong.unirest.HttpResponse;
 import kong.unirest.JsonNode;
@@ -39,3 +39,5 @@ public class Synonym {
 //        System.out.println(array[].replaceAll("synonyms","").replaceAll("[^a-zA-Z0-9\\s]",""));
     }
 }
+
+ */

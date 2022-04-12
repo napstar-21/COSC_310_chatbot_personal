@@ -4,16 +4,17 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.image.BufferedImage;
 
 //import User.Device;
 //import nlp.POS;
 class GUI1 extends JFrame{
 
     public JTextArea area = new JTextArea(); //Chat Area
-   private JScrollPane scroll;
+   private final JScrollPane scroll;
     public JTextField field = new JTextField();//Chat Field
-    private JButton button = new JButton();// The Button
-    private JLabel label = new JLabel();// A label for the button (i.e., "return")
+    private final JButton button = new JButton();// The Button
+    private final JLabel label = new JLabel();// A label for the button (i.e., "return")
 
 
     Boolean ex = false;
@@ -46,7 +47,10 @@ class GUI1 extends JFrame{
        frame.add(scroll);
         frame.add(field);
         frame.add(button);
+      // if(Flickr.flag){
+         //  frame.add(new JLabel(new ImageIcon("\"C:\\Users\\aidan\\Documents\\imagetestcalendar.jpg\"")));
 
+      // }
 
 
 //AREA SETTINGS
@@ -71,6 +75,8 @@ class GUI1 extends JFrame{
         label.setAlignmentY(button.getAlignmentY()-2);
         button.add(label); //Assigning the Label to the Bottom
 
+
+
        IO io = new IO(this);
 
         //opening statement
@@ -79,7 +85,7 @@ class GUI1 extends JFrame{
 //                "Chatbot: How can I help you today?\n");
 
         //Adding Action Listener for the Button
-        button.addActionListener((ActionListener) new ActionListener(){
+        button.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e) {
 
 
@@ -89,6 +95,14 @@ class GUI1 extends JFrame{
                     String userText = field.getText().toLowerCase();//evrything to lower case
                    io.button(userText);
                    io.solfind(userText);
+
+
+//                    BufferedImage img = Flickr.FetchDesiredPhoto(solution.keyword);
+//                    ImageIcon icon= new ImageIcon(img);
+//                    JLabel label = new JLabel(icon);
+//                    frame.add(label);
+
+
 
                 }
 
@@ -106,5 +120,7 @@ class GUI1 extends JFrame{
 
     public void close() {
         System.exit(10);
+
     }
+
 }

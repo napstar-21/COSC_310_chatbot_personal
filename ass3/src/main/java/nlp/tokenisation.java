@@ -1,4 +1,4 @@
-package nlp;
+/*package nlp;
 
 import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.pipeline.CoreDocument;
@@ -32,7 +32,7 @@ public class tokenisation {
 
         for(CoreLabel coreLabel:coreLabelList){
             word = coreLabel.originalText();
-           word= spellCheck.correct(word);
+           word= SpellCheck.correct(word);
             Rtext=Rtext+word+" ";
 
         }
@@ -41,3 +41,5 @@ public class tokenisation {
         return Rtext;
     }
 }
+
+ */
