@@ -1,4 +1,7 @@
-# COSC-310 
+# New Changes for personal project
+For the personal project, I added two API's. I added a wikipedia API, and I added a Flickr image API. The wikipedia API will be used to describe keywords from a user inputted sentence to help them understand how to fix their device. The Flickr API will be used to deliver an image that will hopefully give them a better idea of what the program is suggesting. 
+
+# Legacy ReadMe 
 For COSC 310 assignment #3,
 This code is a conversation between a user and a chat bot to discuss problems It is comprised of classes:
 
@@ -25,3 +28,6 @@ This code is a conversation between a user and a chat bot to discuss problems It
 --> The 11th class is a new class called Digital Client. It is responsible for chatting with the other chat bot.
 
 The rest of the classes just help the other various classes work. In summary, added features are (improved GUI, Spellcheck, Conversation with other groups (#17) bot, POS recognition, a new functionality (device), and 5 non-answer responses.
+
+
+
